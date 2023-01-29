@@ -1,0 +1,3 @@
+[submodule "pcap-analysis/scapy"]
+	path = pcap-analysis/scapy
+	url = https://github.com/secdev/scapy
