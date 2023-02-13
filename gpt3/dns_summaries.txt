@@ -1,0 +1,526 @@
+130.231.202.234 → 130.231.240.70 DNS 85 Standard query 0x4897 A www.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 101 Standard query response 0x4897 A www.google.com A 142.250.185.196 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x27dc AAAA connectivity-check.ubuntu.com OPT
+130.231.240.70 → 130.231.202.234 DNS 268 Standard query response 0x27dc AAAA connectivity-check.ubuntu.com AAAA 2620:2d:4000:1::23 AAAA 2620:2d:4000:1::2b AAAA 2620:2d:4000:1::22 AAAA 2001:67c:1562::23 AAAA 2001:67c:1562::24 AAAA 2620:2d:4000:1::2a OPT
+130.231.202.234 → 130.231.240.70 DNS 99 Standard query 0xc51e A openaiapi-site.azureedge.net OPT
+130.231.240.70 → 130.231.202.234 DNS 286 Standard query response 0xc51e A openaiapi-site.azureedge.net CNAME openaiapi-site.afd.azureedge.net CNAME star-azureedge-prod.trafficmanager.net CNAME shed.dual-low.part-0025.t-0009.fdv2-t-msedge.net CNAME part-0025.t-0009.fdv2-t-msedge.net A 13.107.238.53 A 13.107.237.53 OPT
+130.231.202.234 → 130.231.240.70 DNS 106 Standard query 0x47c8 A optimizationguide-pa.googleapis.com OPT
+130.231.240.70 → 130.231.202.234 DNS 362 Standard query response 0x47c8 A optimizationguide-pa.googleapis.com A 142.250.185.170 A 142.250.185.138 A 172.217.16.138 A 142.250.185.74 A 142.250.186.74 A 142.250.186.106 A 142.250.185.202 A 142.250.184.234 A 142.250.185.106 A 142.250.186.170 A 172.217.18.10 A 216.58.212.138 A 142.250.181.234 A 142.250.184.202 A 172.217.23.106 A 142.250.74.202 OPT
+130.231.202.234 → 130.231.240.70 DNS 82 Standard query 0xfa13 A omapsoas.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 98 Standard query response 0xfa13 A omapsoas.fi A 87.94.14.56 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x3ab4 A safebrowsing.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 129 Standard query response 0x3ab4 A safebrowsing.google.com CNAME sb.l.google.com A 142.250.185.174 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x78b9 A stats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x78b9 No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x78b9 A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x78b9 No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xc2a9 A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x3b25 A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xc2a9 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xc2a9 A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xc2a9 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x3b25 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x3b25 A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x3b25 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x82ad A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x82ad No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x82ad A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x82ad No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x6b25 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x6b25 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x6b25 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x6b25 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xc8f2 A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xc8f2 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xc8f2 A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xc8f2 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 208.67.222.222 DNS 99 Standard query 0x9431 A myip.opendns.com OPT
+208.67.222.222 → 130.231.202.234 DNS 103 Standard query response 0x9431 A myip.opendns.com A 130.231.202.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0xce72 AAAA api.snapcraft.io OPT
+130.231.240.70 → 130.231.202.234 DNS 151 Standard query response 0xce72 AAAA api.snapcraft.io SOA ns1.canonical.com OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x60fa AAAA api.snapcraft.io OPT
+130.231.240.70 → 130.231.202.234 DNS 151 Standard query response 0x60fa AAAA api.snapcraft.io SOA ns1.canonical.com OPT
+130.231.202.234 → 130.231.240.70 DNS 111 Standard query 0x468e A canonical-bos01.cdn.snapcraftcontent.com OPT
+130.231.202.234 → 130.231.240.70 DNS 111 Standard query 0x68bf AAAA canonical-bos01.cdn.snapcraftcontent.com OPT
+130.231.240.70 → 130.231.202.234 DNS 143 Standard query response 0x468e A canonical-bos01.cdn.snapcraftcontent.com A 91.189.91.43 A 91.189.91.42 OPT
+130.231.240.70 → 130.231.202.234 DNS 172 Standard query response 0x68bf AAAA canonical-bos01.cdn.snapcraftcontent.com SOA ns1.canonical.com OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0xcc51 A connectivity-check.ubuntu.com OPT
+130.231.240.70 → 130.231.202.234 DNS 244 Standard query response 0xcc51 A connectivity-check.ubuntu.com A 185.125.190.18 A 34.122.121.32 A 185.125.190.17 A 91.189.91.49 A 35.224.170.84 A 185.125.190.49 A 185.125.190.48 A 91.189.91.48 A 35.232.111.17 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xcaac A stats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x73f5 A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xcaac No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xcaac A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x73f5 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x73f5 A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xcaac No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x73f5 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x450e A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x968d A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x450e No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x450e A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x968d No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x968d A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x450e No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x968d No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xe044 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xe044 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xe044 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xe044 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xc6ab A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xc6ab No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xc6ab A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xc6ab No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0x20d5 A clients4.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 130 Standard query response 0x20d5 A clients4.google.com CNAME clients.l.google.com A 172.217.18.14 OPT
+130.231.202.234 → 130.231.240.70 DNS 93 Standard query 0x8edc A femetrics.grammarly.io OPT
+130.231.240.70 → 130.231.202.234 DNS 221 Standard query response 0x8edc A femetrics.grammarly.io A 52.0.195.12 A 34.197.226.144 A 35.170.154.234 A 3.233.60.61 A 54.166.76.239 A 44.205.92.165 A 52.204.71.73 A 3.211.98.100 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x0568 A d27xxe7juh1us6.cloudfront.net OPT
+130.231.240.70 → 130.231.202.234 DNS 164 Standard query response 0x0568 A d27xxe7juh1us6.cloudfront.net A 18.165.121.221 A 18.165.121.41 A 18.165.121.230 A 18.165.121.21 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x2de5 A safebrowsing.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 129 Standard query response 0x2de5 A safebrowsing.google.com CNAME sb.l.google.com A 142.250.185.238 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xce5b A stats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0xdec7 A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0xdec7 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xce5b No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0xdec7 A sstats.fdown.net
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xce5b A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0xdec7 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xce5b No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x3121 A sstats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xeacb A stats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x3121 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x3121 A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xeacb No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xeacb A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xeacb No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x3121 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xb2da A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xb2da No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xb2da A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xb2da No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xc14d A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xc14d No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xc14d A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xc14d No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 102 Standard query 0xa5b3 A signaler-pa.clients6.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 118 Standard query response 0xa5b3 A signaler-pa.clients6.google.com A 172.217.16.202 OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x615e A api2.gettoby.com OPT
+130.231.240.70 → 130.231.202.234 DNS 134 Standard query response 0x615e A api2.gettoby.com CNAME ghs.googlehosted.com A 172.217.16.147 OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x27a6 A www.evernote.com OPT
+130.231.240.70 → 130.231.202.234 DNS 178 Standard query response 0x27a6 A www.evernote.com CNAME www.evernote.com.edgekey.net CNAME e7641.b.akamaiedge.net A 23.72.245.183 OPT
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0x3407 A platform.openai.com OPT
+130.231.240.70 → 130.231.202.234 DNS 201 Standard query response 0x3407 A platform.openai.com CNAME platform.api.openai.com CNAME platform.openai.com.cdn.cloudflare.net A 104.18.1.104 A 104.18.0.104 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x09de A stats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x09de No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x09de A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x09de No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xe54c A stats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xe54c No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xe54c A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xe54c No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x7429 A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x7429 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x7429 A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x7429 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x11d0 A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x11d0 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x11d0 A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x11d0 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 85 Standard query 0x3dd5 A api.openai.com OPT
+130.231.240.70 → 130.231.202.234 DNS 101 Standard query response 0x3dd5 A api.openai.com A 52.152.96.252 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xe9c0 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xe9c0 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xe9c0 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xe9c0 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x6a7d A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x6a7d No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x6a7d A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x6a7d No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 99 Standard query 0x0819 A openaiapi-site.azureedge.net OPT
+130.231.240.70 → 130.231.202.234 DNS 286 Standard query response 0x0819 A openaiapi-site.azureedge.net CNAME openaiapi-site.afd.azureedge.net CNAME star-azureedge-prod.trafficmanager.net CNAME shed.dual-low.part-0025.t-0009.fdv2-t-msedge.net CNAME part-0025.t-0009.fdv2-t-msedge.net A 13.107.237.53 A 13.107.238.53 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0x48d6 A widget.intercom.io OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0xde82 A js.stripe.com OPT
+130.231.240.70 → 130.231.202.234 DNS 153 Standard query response 0x48d6 A widget.intercom.io A 108.156.22.66 A 108.156.22.43 A 108.156.22.127 A 108.156.22.78 OPT
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0xde82 A js.stripe.com CNAME stripecdn.map.fastly.net A 151.101.244.176 OPT
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0xe6a7 A api-iam.intercom.io OPT
+130.231.240.70 → 130.231.202.234 DNS 218 Standard query response 0xe6a7 A api-iam.intercom.io A 54.145.232.141 A 52.205.164.215 A 54.197.128.240 A 54.156.44.158 A 54.89.187.226 A 3.223.39.204 A 107.21.107.85 A 44.205.77.130 OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x7942 A m.stripe.com OPT
+130.231.240.70 → 130.231.202.234 DNS 211 Standard query response 0x7942 A m.stripe.com A 52.89.231.227 A 35.84.50.80 A 54.203.32.168 A 54.69.236.247 A 52.89.247.128 A 54.149.171.250 A 54.200.119.5 A 35.166.103.204 OPT
+130.231.202.234 → 130.231.240.70 DNS 102 Standard query 0x9967 A content-autofill.googleapis.com OPT
+130.231.240.70 → 130.231.202.234 DNS 358 Standard query response 0x9967 A content-autofill.googleapis.com A 142.250.185.234 A 142.250.185.106 A 172.217.23.106 A 142.250.186.74 A 142.250.184.202 A 142.250.185.138 A 142.250.186.42 A 216.58.212.138 A 216.58.212.170 A 142.250.186.170 A 142.250.74.202 A 142.250.184.234 A 172.217.18.106 A 142.250.186.106 A 172.217.16.202 A 142.250.186.138 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0xc1ce A nexus-websocket-a.intercom.io OPT
+130.231.240.70 → 130.231.202.234 DNS 132 Standard query response 0xc1ce A nexus-websocket-a.intercom.io A 35.174.127.31 A 34.237.73.95 OPT
+130.231.202.234 → 208.67.222.222 DNS 99 Standard query 0xfa67 A myip.opendns.com OPT
+208.67.222.222 → 130.231.202.234 DNS 103 Standard query response 0xfa67 A myip.opendns.com A 130.231.202.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 88 Standard query 0x4b23 A fonts.gstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 104 Standard query response 0x4b23 A fonts.gstatic.com A 172.217.16.195 OPT
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0x76fd A clients4.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 130 Standard query response 0x76fd A clients4.google.com CNAME clients.l.google.com A 172.217.18.14 OPT
+130.231.202.234 → 130.231.240.70 DNS 85 Standard query 0x43cc A www.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 101 Standard query response 0x43cc A www.google.com A 142.250.185.196 OPT
+130.231.202.234 → 208.67.222.222 DNS 99 Standard query 0x1287 A myip.opendns.com OPT
+208.67.222.222 → 130.231.202.234 DNS 103 Standard query response 0x1287 A myip.opendns.com A 130.231.202.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x1500 A cdn.rfxn.com OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xd386 AAAA cdn.rfxn.com OPT
+130.231.240.70 → 130.231.202.234 DNS 115 Standard query response 0x1500 A cdn.rfxn.com A 104.21.29.103 A 172.67.171.112 OPT
+130.231.240.70 → 130.231.202.234 DNS 139 Standard query response 0xd386 AAAA cdn.rfxn.com AAAA 2606:4700:3032::6815:1d67 AAAA 2606:4700:3034::ac43:ab70 OPT
+130.231.202.234 → 208.67.222.222 DNS 99 Standard query 0x3ff6 A myip.opendns.com OPT
+208.67.222.222 → 130.231.202.234 DNS 103 Standard query response 0x3ff6 A myip.opendns.com A 130.231.202.234 OPT
+130.231.202.234 → 208.67.222.222 DNS 99 Standard query 0x9b64 A myip.opendns.com OPT
+208.67.222.222 → 130.231.202.234 DNS 103 Standard query response 0x9b64 A myip.opendns.com A 130.231.202.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 82 Standard query 0x2919 A discord.com OPT
+130.231.240.70 → 130.231.202.234 DNS 162 Standard query response 0x2919 A discord.com A 162.159.137.232 A 162.159.128.233 A 162.159.135.232 A 162.159.136.232 A 162.159.138.232 OPT
+130.231.202.234 → 130.231.240.70 DNS 107 Standard query 0xae7b A client-update.akamai.steamstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 235 Standard query response 0xae7b A client-update.akamai.steamstatic.com CNAME client-update.akamai.steamstatic.com.akamaized.net CNAME a78.dscw27.akamai.net A 193.166.4.73 A 193.166.4.71 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xa431 A gateway.discord.gg OPT
+130.231.240.70 → 130.231.202.234 DNS 169 Standard query response 0xa431 A gateway.discord.gg A 162.159.135.234 A 162.159.134.234 A 162.159.136.234 A 162.159.130.234 A 162.159.133.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x4e51 A api.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 135 Standard query response 0x4e51 A api.spotify.com CNAME edge-web.dual-gslb.spotify.com A 35.186.224.25 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xa7f4 A status.discord.com OPT
+130.231.240.70 → 130.231.202.234 DNS 169 Standard query response 0xa7f4 A status.discord.com A 162.159.135.232 A 162.159.138.232 A 162.159.137.232 A 162.159.136.232 A 162.159.128.233 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xa23e A dealer.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xa23e A dealer.spotify.com CNAME global-dealer-ssl.spotify.com A 35.186.224.47 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0xacb6 A ci5.googleusercontent.com OPT
+130.231.240.70 → 130.231.202.234 DNS 112 Standard query response 0xacb6 A ci5.googleusercontent.com A 142.250.184.193 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x3961 A people-pa.clients6.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 116 Standard query response 0x3961 A people-pa.clients6.google.com A 142.250.185.170 OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x25a9 A www.amazon.de OPT
+130.231.240.70 → 130.231.202.234 DNS 178 Standard query response 0x25a9 A www.amazon.de CNAME tp.abe2c2f23-frontier.amazon.de CNAME djvbdz1obemzo.cloudfront.net A 108.156.15.50 OPT
+130.231.202.234 → 130.231.240.70 DNS 98 Standard query 0xacac A safebrowsing.googleapis.com OPT
+130.231.240.70 → 130.231.202.234 DNS 114 Standard query response 0xacac A safebrowsing.googleapis.com A 142.250.184.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0x9d31 A m.media-amazon.com OPT
+130.231.202.234 → 130.231.240.70 DNS 102 Standard query 0xc87c A images-eu.ssl-images-amazon.com OPT
+130.231.202.234 → 130.231.240.70 DNS 102 Standard query 0x901a A images-na.ssl-images-amazon.com OPT
+130.231.240.70 → 130.231.202.234 DNS 157 Standard query response 0x9d31 A m.media-amazon.com CNAME tp.c47710ee9-frontier.media-amazon.com CNAME c.media-amazon.com A 18.165.127.142 OPT
+130.231.240.70 → 130.231.202.234 DNS 199 Standard query response 0x901a A images-na.ssl-images-amazon.com CNAME m.media-amazon.com CNAME tp.c47710ee9-frontier.media-amazon.com CNAME c.media-amazon.com A 18.165.127.142 OPT
+130.231.240.70 → 130.231.202.234 DNS 199 Standard query response 0xc87c A images-eu.ssl-images-amazon.com CNAME m.media-amazon.com CNAME tp.c47710ee9-frontier.media-amazon.com CNAME c.media-amazon.com A 18.165.127.142 OPT
+130.231.202.234 → 130.231.240.70 DNS 91 Standard query 0x9124 A completion.amazon.de OPT
+130.231.240.70 → 130.231.202.234 DNS 144 Standard query response 0x9124 A completion.amazon.de CNAME completion.amazon.co.uk A 52.95.114.193 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xad1f A stats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0xc21d A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xad1f No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xad1f A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0xc21d No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0xc21d A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xad1f No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0xc21d No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x557d A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x8c5a A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x8c5a No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x8c5a A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x557d No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x557d A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x557d No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x8c5a No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 92 Standard query 0xa5b8 A negbar.ad-blocker.org OPT
+130.231.240.70 → 130.231.202.234 DNS 199 Standard query response 0xa5b8 A negbar.ad-blocker.org CNAME d2vcyxtgtvl2r4.cloudfront.net A 108.156.22.79 A 108.156.22.74 A 108.156.22.66 A 108.156.22.24 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x4cd2 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x4cd2 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x4cd2 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x4cd2 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x23f8 A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x23f8 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x23f8 A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x23f8 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x6027 AAAA connectivity-check.ubuntu.com OPT
+130.231.240.70 → 130.231.202.234 DNS 268 Standard query response 0x6027 AAAA connectivity-check.ubuntu.com AAAA 2001:67c:1562::23 AAAA 2620:2d:4000:1::22 AAAA 2620:2d:4000:1::2b AAAA 2620:2d:4000:1::2a AAAA 2001:67c:1562::24 AAAA 2620:2d:4000:1::23 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x905c A unagi.amazon.de OPT
+130.231.240.70 → 130.231.202.234 DNS 135 Standard query response 0x905c A unagi.amazon.de CNAME unagi-eu.amazon.com A 67.220.226.139 OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x6e18 A fls-eu.amazon.de OPT
+130.231.240.70 → 130.231.202.234 DNS 319 Standard query response 0x6e18 A fls-eu.amazon.de CNAME fls-eu.amazon.com CNAME gateway.prod.eu-west-1.forester.a2z.com CNAME endpoint.prod.eu-west-1.forester.a2z.com A 54.216.242.64 A 18.200.129.126 A 54.194.56.155 A 54.155.201.109 A 63.32.247.194 A 54.154.186.175 A 34.249.10.64 A 52.215.115.73 OPT
+130.231.202.234 → 130.231.240.70 DNS 92 Standard query 0x2d2a A latency.discord.media OPT
+130.231.240.70 → 130.231.202.234 DNS 172 Standard query response 0x2d2a A latency.discord.media A 162.159.137.234 A 162.159.130.235 A 162.159.129.235 A 162.159.128.235 A 162.159.138.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 126 Standard query 0x18e0 A redirect.prod.experiment.routing.cloudfront.aws.a2z.com OPT
+130.231.240.70 → 130.231.202.234 DNS 279 Standard query response 0x18e0 A redirect.prod.experiment.routing.cloudfront.aws.a2z.com CNAME redirect.stripe2.prod.experiment.routing.cloudfront.aws.a2z.com CNAME edger-edger-4e3vcwvnek77-1367313377.us-east-2.elb.amazonaws.com A 18.116.180.116 A 3.20.18.7 A 3.23.57.200 OPT
+130.231.202.234 → 130.231.240.70 DNS 136 Standard query 0xd9fb A a6db722f7ad64f5eee2bccdb4832c2e90.profile.ccu50-p2.cloudfront.net OPT
+130.231.240.70 → 130.231.202.234 DNS 200 Standard query response 0xd9fb A a6db722f7ad64f5eee2bccdb4832c2e90.profile.ccu50-p2.cloudfront.net A 18.164.138.120 A 18.164.138.139 A 18.164.138.192 A 18.164.138.188 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xabc9 A cdn.discordapp.com OPT
+130.231.240.70 → 130.231.202.234 DNS 169 Standard query response 0xabc9 A cdn.discordapp.com A 162.159.133.233 A 162.159.130.233 A 162.159.134.233 A 162.159.135.233 A 162.159.129.233 OPT
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0x5141 A clients4.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 130 Standard query response 0x5141 A clients4.google.com CNAME clients.l.google.com A 172.217.18.14 OPT
+130.231.202.234 → 130.231.240.70 DNS 97 Standard query 0x1043 A encrypted-tbn0.gstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 113 Standard query response 0x1043 A encrypted-tbn0.gstatic.com A 142.250.185.238 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0x95cc A lh5.googleusercontent.com OPT
+130.231.240.70 → 130.231.202.234 DNS 141 Standard query response 0x95cc A lh5.googleusercontent.com CNAME googlehosted.l.googleusercontent.com A 172.217.23.97 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xf840 A stats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x2b2a A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xf840 No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xf840 A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x2b2a No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x2b2a A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xf840 No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x2b2a No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x8a50 A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0xc56c A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x8a50 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x8a50 A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0xc56c No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0xc56c A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x8a50 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0xc56c No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xca23 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xca23 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xca23 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xca23 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x0c01 A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x0c01 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x0c01 A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x0c01 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xe177 A www.googleapis.com OPT
+130.231.240.70 → 130.231.202.234 DNS 345 Standard query response 0xe177 A www.googleapis.com A 142.250.186.74 A 142.250.185.106 A 172.217.18.10 A 142.250.186.170 A 142.250.184.202 A 142.250.185.170 A 142.250.186.106 A 142.250.185.138 A 216.58.212.138 A 142.250.185.74 A 172.217.16.138 A 142.250.186.42 A 142.250.74.202 A 142.250.184.234 A 172.217.23.106 A 142.250.181.234 OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xe176 A www.posti.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 184 Standard query response 0xe176 A www.posti.fi CNAME prd.postifi.posticloud.fi A 108.156.22.125 A 108.156.22.122 A 108.156.22.57 A 108.156.22.89 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x0be6 A stats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x0be6 No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x0be6 A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x0be6 No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x49fa A stats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x49fa No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x49fa A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x49fa No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x5a18 A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x5a18 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x5a18 A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x5a18 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x4742 A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x4742 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x4742 A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x4742 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x8ec9 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x8ec9 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x8ec9 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x8ec9 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xbb91 A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xbb91 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xbb91 A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xbb91 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 92 Standard query 0x3322 A auth-service.posti.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 202 Standard query response 0x3322 A auth-service.posti.fi CNAME auth-service.prd.idm.posticloud.fi A 18.165.122.48 A 18.165.122.101 A 18.165.122.52 A 18.165.122.47 OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0xb6dc A www.googletagmanager.com OPT
+130.231.240.70 → 130.231.202.234 DNS 111 Standard query response 0xb6dc A www.googletagmanager.com A 216.58.212.136 OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x74d7 A cdn.posti.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 180 Standard query response 0x74d7 A cdn.posti.fi CNAME prd.cdn.posticloud.fi A 18.165.122.114 A 18.165.122.120 A 18.165.122.30 A 18.165.122.99 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xbbd2 A cdn-ukwest.onetrust.com OPT
+130.231.240.70 → 130.231.202.234 DNS 126 Standard query response 0xbbd2 A cdn-ukwest.onetrust.com A 104.18.26.85 A 104.18.27.85 OPT
+130.231.202.234 → 130.231.240.70 DNS 92 Standard query 0x31ae A test.steampowered.com OPT
+130.231.202.234 → 130.231.240.70 DNS 91 Standard query 0x333a AAAA api.steampowered.com OPT
+130.231.240.70 → 130.231.202.234 DNS 155 Standard query response 0x333a AAAA api.steampowered.com SOA ns1.valvesoftware.com OPT
+130.231.202.234 → 130.231.240.70 DNS 99 Standard query 0xf707 AAAA api.steampowered.com.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 153 Standard query response 0xf707 No such name AAAA api.steampowered.com.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 88 Standard query 0xf707 AAAA api.steampowered.com.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 142 Standard query response 0xf707 No such name AAAA api.steampowered.com.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 91 Standard query 0xbe30 A api.steampowered.com OPT
+130.231.240.70 → 130.231.202.234 DNS 124 Standard query response 0x31ae A test.steampowered.com A 193.166.4.73 A 193.166.4.70 OPT
+130.231.240.70 → 130.231.202.234 DNS 107 Standard query response 0xbe30 A api.steampowered.com A 23.61.217.36 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0xa5ea AAAA ipv6check-udp.steamserver.net OPT
+130.231.240.70 → 130.231.202.234 DNS 376 Standard query response 0xa5ea AAAA ipv6check-udp.steamserver.net CNAME udp.ipv6check.akadns.net CNAME eu.udp.ipv6check.akadns.net AAAA 2a01:bc80:4:100::5 AAAA 2a01:bc80:4:100::3 AAAA 2a01:bc80:4:101::37 AAAA 2a01:bc80:4:100::4 AAAA 2a01:bc80:4:101::35 AAAA 2a01:bc80:4:101::38 AAAA 2a01:bc80:4:100::6 AAAA 2a01:bc80:4:101::36 OPT
+130.231.202.234 → 130.231.240.70 DNS 101 Standard query 0xc306 AAAA ipv6check-http.steamserver.net OPT
+130.231.240.70 → 130.231.202.234 DNS 378 Standard query response 0xc306 AAAA ipv6check-http.steamserver.net CNAME http.ipv6check.akadns.net CNAME eu.http.ipv6check.akadns.net AAAA 2a01:bc80:4:101::35 AAAA 2a01:bc80:4:101::38 AAAA 2a01:bc80:4:101::37 AAAA 2a01:bc80:4:101::36 AAAA 2a01:bc80:4:100::6 AAAA 2a01:bc80:4:100::3 AAAA 2a01:bc80:4:100::4 AAAA 2a01:bc80:4:100::5 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0x76c1 A ext2-sto2.steamserver.net OPT
+130.231.240.70 → 130.231.202.234 DNS 112 Standard query response 0x76c1 A ext2-sto2.steamserver.net A 155.133.252.54 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0x8a4d A ext2-sto1.steamserver.net OPT
+130.231.240.70 → 130.231.202.234 DNS 112 Standard query response 0x8a4d A ext2-sto1.steamserver.net A 162.254.198.104 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0xc03d A ext1-fra2.steamserver.net OPT
+130.231.240.70 → 130.231.202.234 DNS 112 Standard query response 0xc03d A ext1-fra2.steamserver.net A 155.133.226.75 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0x01e4 A ext2-fra1.steamserver.net OPT
+130.231.240.70 → 130.231.202.234 DNS 112 Standard query response 0x01e4 A ext2-fra1.steamserver.net A 162.254.197.54 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x826e A ssl.gstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 102 Standard query response 0x826e A ssl.gstatic.com A 142.250.186.131 OPT
+130.231.202.234 → 130.231.240.70 DNS 106 Standard query 0x6a38 A clientconfig.akamai.steamstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 231 Standard query response 0x6a38 A clientconfig.akamai.steamstatic.com CNAME clientconfig.akamai.steamstatic.com.edgesuite.net CNAME a1768.g1.akamai.net A 193.166.4.72 A 193.166.4.71 OPT
+130.231.202.234 → 130.231.240.70 DNS 112 Standard query 0x35be A steamcloud-finland.storage.googleapis.com OPT
+130.231.240.70 → 130.231.202.234 DNS 128 Standard query response 0x35be A steamcloud-finland.storage.googleapis.com A 142.250.184.240 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x3b96 A steamcdn-a.akamaihd.net OPT
+130.231.240.70 → 130.231.202.234 DNS 204 Standard query response 0x3b96 A steamcdn-a.akamaihd.net CNAME steamcdn-a.akamaihd.net.edgesuite.net CNAME a1843.g1.akamai.net A 193.166.4.71 A 193.166.4.70 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0xea13 A steamstore-a.akamaihd.net OPT
+130.231.240.70 → 130.231.202.234 DNS 207 Standard query response 0xea13 A steamstore-a.akamaihd.net CNAME steamstore-a.akamaihd.net.edgesuite.net CNAME a1737.b.akamai.net A 193.166.4.71 A 193.166.4.70 OPT
+130.231.202.234 → 130.231.240.70 DNS 85 Standard query 0x4a8a A steam-chat.com OPT
+130.231.240.70 → 130.231.202.234 DNS 101 Standard query response 0x4a8a A steam-chat.com A 23.60.31.80 OPT
+130.231.202.234 → 130.231.240.70 DNS 107 Standard query 0x26cc A community.cloudflare.steamstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 139 Standard query response 0x26cc A community.cloudflare.steamstatic.com A 104.18.37.23 A 172.64.150.233 OPT
+130.231.202.234 → 130.231.240.70 DNS 93 Standard query 0x0379 A store.steampowered.com OPT
+130.231.240.70 → 130.231.202.234 DNS 109 Standard query response 0x0379 A store.steampowered.com A 95.100.176.105 OPT
+130.231.202.234 → 130.231.240.70 DNS 88 Standard query 0xf885 A ocsp.digicert.com OPT
+130.231.240.70 → 130.231.202.234 DNS 136 Standard query response 0xf885 A ocsp.digicert.com CNAME cs9.wac.phicdn.net A 93.184.220.29 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xd2b3 A stats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x27d2 A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xd2b3 No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xd2b3 A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x27d2 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x27d2 A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xd2b3 No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x27d2 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xd801 A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x7136 A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xd801 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xd801 A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x7136 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x7136 A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xd801 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x7136 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 99 Standard query 0x8018 A f-log-extension.grammarly.io OPT
+130.231.240.70 → 130.231.202.234 DNS 227 Standard query response 0x8018 A f-log-extension.grammarly.io A 3.228.122.249 A 54.204.224.158 A 34.228.100.25 A 3.209.185.9 A 3.223.72.123 A 54.88.1.130 A 34.200.81.192 A 54.210.23.174 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x92b7 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x92b7 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x92b7 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x92b7 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x44f4 A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x44f4 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x44f4 A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x44f4 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x92cf A steamcdn-a.akamaihd.net OPT
+130.231.240.70 → 130.231.202.234 DNS 204 Standard query response 0x92cf A steamcdn-a.akamaihd.net CNAME steamcdn-a.akamaihd.net.edgesuite.net CNAME a1843.g1.akamai.net A 193.166.4.71 A 193.166.4.70 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xb545 A stats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xb545 No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x9e86 A sstats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xb545 A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x9e86 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x9e86 A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xb545 No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x9e86 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x4d03 A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x7e5b A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x4d03 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x4d03 A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x7e5b No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x7e5b A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x4d03 No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x7e5b No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x8cf4 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x8cf4 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x8cf4 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x8cf4 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x815e A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x815e No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x815e A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x815e No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0xe33a A aax-eu.amazon.de OPT
+130.231.240.70 → 130.231.202.234 DNS 157 Standard query response 0xe33a A aax-eu.amazon.de CNAME aax-eu-retail-direct.amazon-adsystem.com A 52.94.222.127 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0xb834 A d1nruqhae353qc.cloudfront.net OPT
+130.231.240.70 → 130.231.202.234 DNS 164 Standard query response 0xb834 A d1nruqhae353qc.cloudfront.net A 108.156.13.192 A 108.156.13.163 A 108.156.13.231 A 108.156.13.77 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x84e6 A d2h8zr0m6mus4x.cloudfront.net OPT
+130.231.240.70 → 130.231.202.234 DNS 164 Standard query response 0x84e6 A d2h8zr0m6mus4x.cloudfront.net A 18.66.168.150 A 18.66.168.86 A 18.66.168.191 A 18.66.168.75 OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0xedfe A aan.amazon.de OPT
+130.231.240.70 → 130.231.202.234 DNS 100 Standard query response 0xedfe A aan.amazon.de A 176.32.110.78 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xa1aa A stats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0xb6b8 A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xa1aa No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xa1aa A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0xb6b8 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0xb6b8 A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xa1aa No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0xb6b8 No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xe1db A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0x5e56 A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xe1db No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xe1db A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x5e56 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0x5e56 A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xe1db No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x5e56 No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x15b2 A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x15b2 No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x15b2 A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x15b2 No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x2ccc A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x2ccc No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x2ccc A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x2ccc No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x18c9 A unagi.amazon.de OPT
+130.231.240.70 → 130.231.202.234 DNS 135 Standard query response 0x18c9 A unagi.amazon.de CNAME unagi-eu.amazon.com A 54.239.32.228 OPT
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0x85e5 A clients4.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 130 Standard query response 0x85e5 A clients4.google.com CNAME clients.l.google.com A 172.217.18.14 OPT
+130.231.202.234 → 130.231.240.70 DNS 105 Standard query 0x91b2 A avatars.cloudflare.steamstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x91b2 A avatars.cloudflare.steamstatic.com A 172.64.150.233 A 104.18.37.23 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0xcf08 A connectivity-check.ubuntu.com OPT
+130.231.240.70 → 130.231.202.234 DNS 244 Standard query response 0xcf08 A connectivity-check.ubuntu.com A 91.189.91.49 A 35.224.170.84 A 35.232.111.17 A 185.125.190.18 A 185.125.190.49 A 34.122.121.32 A 91.189.91.48 A 185.125.190.48 A 185.125.190.17 OPT
+130.231.202.234 → 130.231.240.70 DNS 82 Standard query 0x30f2 A discord.com OPT
+130.231.240.70 → 130.231.202.234 DNS 162 Standard query response 0x30f2 A discord.com A 162.159.128.233 A 162.159.138.232 A 162.159.136.232 A 162.159.137.232 A 162.159.135.232 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xd426 A cdn.discordapp.com OPT
+130.231.240.70 → 130.231.202.234 DNS 169 Standard query response 0xd426 A cdn.discordapp.com A 162.159.135.233 A 162.159.134.233 A 162.159.129.233 A 162.159.133.233 A 162.159.130.233 OPT
+130.231.202.234 → 130.231.240.70 DNS 93 Standard query 0x5254 A femetrics.grammarly.io OPT
+130.231.240.70 → 130.231.202.234 DNS 221 Standard query response 0x5254 A femetrics.grammarly.io A 52.1.148.43 A 44.205.92.165 A 52.0.79.212 A 54.236.150.60 A 44.197.34.154 A 34.225.48.166 A 44.207.208.38 A 18.209.220.162 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x4072 A d27xxe7juh1us6.cloudfront.net OPT
+130.231.240.70 → 130.231.202.234 DNS 164 Standard query response 0x4072 A d27xxe7juh1us6.cloudfront.net A 18.165.121.41 A 18.165.121.221 A 18.165.121.21 A 18.165.121.230 OPT
+130.231.202.234 → 130.231.240.70 DNS 97 Standard query 0xc373 A exo.nel.measure.office.net OPT
+130.231.240.70 → 130.231.202.234 DNS 208 Standard query response 0xc373 A exo.nel.measure.office.net CNAME nel.measure.office.net.edgesuite.net CNAME a1894.dscb.akamai.net A 193.166.4.70 A 193.166.4.72 OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xcea5 A dealer.spotify.com OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0xd275 AAAA dealer.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xcea5 A dealer.spotify.com CNAME global-dealer-ssl.spotify.com A 35.186.224.47 OPT
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0xd275 AAAA dealer.spotify.com CNAME global-dealer-ssl.spotify.com AAAA 2600:1901:1:e52:: OPT
+130.231.202.234 → 130.231.240.70 DNS 92 Standard query 0x6141 A apresolve.spotify.com OPT
+130.231.202.234 → 130.231.240.70 DNS 89 Standard query 0x14d5 A login5.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 108 Standard query response 0x6141 A apresolve.spotify.com A 34.98.74.57 OPT
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x14d5 A login5.spotify.com CNAME edge-web.dual-gslb.spotify.com A 35.186.224.25 OPT
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0x636a A ap-gew4.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 106 Standard query response 0x636a A ap-gew4.spotify.com A 34.158.0.131 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x4277 A spclient.wg.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 143 Standard query response 0x4277 A spclient.wg.spotify.com CNAME edge-web.dual-gslb.spotify.com A 35.186.224.25 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x4aa0 A api.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 135 Standard query response 0x4aa0 A api.spotify.com CNAME edge-web.dual-gslb.spotify.com A 35.186.224.25 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0x287d A gew4-spclient.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 150 Standard query response 0x287d A gew4-spclient.spotify.com CNAME edge-web-gew4.dual-gslb.spotify.com A 35.186.224.17 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x7345 A gew4-dealer.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 140 Standard query response 0x7345 A gew4-dealer.spotify.com CNAME gew4-dealer-ssl.spotify.com A 35.186.224.41 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0x390e A www.googletagservices.com OPT
+130.231.240.70 → 130.231.202.234 DNS 112 Standard query response 0x390e A www.googletagservices.com A 142.250.185.98 OPT
+130.231.202.234 → 130.231.240.70 DNS 101 Standard query 0x6364 A securepubads.g.doubleclick.net OPT
+130.231.240.70 → 130.231.202.234 DNS 146 Standard query response 0x6364 A securepubads.g.doubleclick.net CNAME securepubads46.g.doubleclick.net A 142.250.186.162 OPT
+130.231.202.234 → 130.231.240.70 DNS 98 Standard query 0x6dbf A googleads.g.doubleclick.net OPT
+130.231.202.234 → 130.231.240.70 DNS 91 Standard query 0x3890 A adservice.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 114 Standard query response 0x6dbf A googleads.g.doubleclick.net A 172.217.18.98 OPT
+130.231.240.70 → 130.231.202.234 DNS 107 Standard query response 0x3890 A adservice.google.com A 172.217.16.130 OPT
+130.231.202.234 → 130.231.240.70 DNS 90 Standard query 0xd1be A adservice.google.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 146 Standard query response 0xd1be A adservice.google.fi CNAME pagead46.l.doubleclick.net A 142.250.186.130 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x3c0b A pagead2.googlesyndication.com OPT
+130.231.240.70 → 130.231.202.234 DNS 116 Standard query response 0x3c0b A pagead2.googlesyndication.com A 142.250.74.194 OPT
+130.231.202.234 → 130.231.240.70 DNS 135 Standard query 0x8c81 A 150734a2e363b92894d8e8a7a1d6aafb.safeframe.googlesyndication.com OPT
+130.231.240.70 → 130.231.202.234 DNS 194 Standard query response 0x8c81 A 150734a2e363b92894d8e8a7a1d6aafb.safeframe.googlesyndication.com CNAME pagead-googlehosted.l.google.com A 142.250.74.193 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0xf47c A seed-mix-image.spotifycdn.com OPT
+130.231.202.234 → 130.231.240.70 DNS 97 Standard query 0xc0b4 A adeventtracker.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 161 Standard query response 0xf47c A seed-mix-image.spotifycdn.com CNAME tls13.spotifycdn.map.fastly.net A 151.101.246.250 OPT
+130.231.240.70 → 130.231.202.234 DNS 146 Standard query response 0xc0b4 A adeventtracker.spotify.com CNAME edge-web.dual-gslb.spotify.com A 35.186.224.25 OPT
+130.231.202.234 → 130.231.240.70 DNS 100 Standard query 0x9bfd A seeded-session-images.scdn.co OPT
+130.231.240.70 → 130.231.202.234 DNS 159 Standard query response 0x9bfd A seeded-session-images.scdn.co CNAME scdnco.spotify.map.fastly.net A 151.101.246.248 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x8939 A api-partner.spotify.com OPT
+130.231.240.70 → 130.231.202.234 DNS 169 Standard query response 0x8939 A api-partner.spotify.com CNAME partners.wg.spotify.com CNAME edge-web.dual-gslb.spotify.com A 35.186.224.25 OPT
+130.231.202.234 → 130.231.240.70 DNS 80 Standard query 0x4250 A i.scdn.co OPT
+130.231.240.70 → 130.231.202.234 DNS 139 Standard query response 0x4250 A i.scdn.co CNAME scdnco.spotify.map.fastly.net A 151.101.246.248 OPT
+130.231.202.234 → 130.231.240.70 DNS 96 Standard query 0xba29 A tpc.googlesyndication.com OPT
+130.231.240.70 → 130.231.202.234 DNS 112 Standard query response 0xba29 A tpc.googlesyndication.com A 142.250.185.129 OPT
+130.231.202.234 → 130.231.240.70 DNS 102 Standard query 0x5753 A signaler-pa.clients6.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 118 Standard query response 0x5753 A signaler-pa.clients6.google.com A 142.250.74.202 OPT
+130.231.202.234 → 130.231.240.70 DNS 105 Standard query 0x3c1c A audio-ak-spotify-com.akamaized.net OPT
+130.231.240.70 → 130.231.202.234 DNS 168 Standard query response 0x3c1c A audio-ak-spotify-com.akamaized.net CNAME a297.dscc.akamai.net A 193.166.4.70 A 193.166.4.71 OPT
+130.231.202.234 → 130.231.240.70 DNS 107 Standard query 0x35a2 A client-update.akamai.steamstatic.com OPT
+130.231.240.70 → 130.231.202.234 DNS 235 Standard query response 0x35a2 A client-update.akamai.steamstatic.com CNAME client-update.akamai.steamstatic.com.akamaized.net CNAME a78.dscw27.akamai.net A 193.166.4.73 A 193.166.4.71 OPT
+130.231.202.234 → 130.231.240.70 DNS 106 Standard query 0xb1c3 A optimizationguide-pa.googleapis.com OPT
+130.231.240.70 → 130.231.202.234 DNS 362 Standard query response 0xb1c3 A optimizationguide-pa.googleapis.com A 142.250.181.234 A 142.250.186.106 A 142.250.185.170 A 142.250.185.106 A 172.217.23.106 A 142.250.185.74 A 172.217.16.138 A 142.250.186.74 A 142.250.186.170 A 142.250.184.234 A 216.58.212.138 A 172.217.18.106 A 142.250.185.138 A 142.250.184.202 A 142.250.74.202 A 142.250.186.42 OPT
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xbd40 A safebrowsing.google.com OPT
+130.231.240.70 → 130.231.202.234 DNS 129 Standard query response 0xbd40 A safebrowsing.google.com CNAME sb.l.google.com A 142.250.185.174 OPT
+130.231.202.234 → 130.231.240.70 DNS 82 Standard query 0x14cf A omapsoas.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 98 Standard query response 0x14cf A omapsoas.fi A 87.94.14.56 OPT
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0xfc3b A stats.fdown.net OPT
+130.231.202.234 → 130.231.240.70 DNS 87 Standard query 0x4bcd A sstats.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xfc3b No such name A stats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0xfc3b A stats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0x4bcd No such name A sstats.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 76 Standard query 0x4bcd A sstats.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xfc3b No such name A stats.fdown.net SOA brad.ns.cloudflare.com
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0x4bcd No such name A sstats.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0x074c A stats.fdown.net.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 95 Standard query 0xa85b A sstats.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x074c No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0x074c A stats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 149 Standard query response 0xa85b No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 84 Standard query 0xa85b A sstats.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x074c No such name A stats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 138 Standard query response 0xa85b No such name A sstats.fdown.net.oulu.fi SOA ousrvr.oulu.fi
+130.231.202.234 → 130.231.240.70 DNS 86 Standard query 0x716f A usage.fdown.net OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0x716f No such name A usage.fdown.net SOA brad.ns.cloudflare.com OPT
+130.231.202.234 → 130.231.240.70 DNS 75 Standard query 0x716f A usage.fdown.net
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0x716f No such name A usage.fdown.net SOA brad.ns.cloudflare.com
+130.231.202.234 → 130.231.240.70 DNS 94 Standard query 0xe6e4 A usage.fdown.net.oulu.fi OPT
+130.231.240.70 → 130.231.202.234 DNS 148 Standard query response 0xe6e4 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi OPT
+130.231.202.234 → 130.231.240.70 DNS 83 Standard query 0xe6e4 A usage.fdown.net.oulu.fi
+130.231.240.70 → 130.231.202.234 DNS 137 Standard query response 0xe6e4 No such name A usage.fdown.net.oulu.fi SOA ousrvr.oulu.fi
