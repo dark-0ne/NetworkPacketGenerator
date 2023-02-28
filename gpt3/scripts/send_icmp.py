@@ -35,12 +35,12 @@ def process_pcap(file_name):
     return interesting_packets
 
 
-packets = process_pcap("generated_icmp_commands.pcap")
+packets = process_pcap("data/pcap/synthetic/generated_curie_commands.pcap")
 #packets = process_pcap("custom_pings.pcapng")
 
 processed_packets = []
 for pkt in packets:
-    pkt[scapy.IP].src = "100.71.74.120"
+    pkt[scapy.IP].src = "130.231.202.234"
     pkt[scapy.IP].dst = "8.8.8.8"
     pkt[scapy.ICMP].type = 8
     #pkt[scapy.ICMP].id = 0

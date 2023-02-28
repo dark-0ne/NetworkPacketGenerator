@@ -1,0 +1,744 @@
+prompt,completion
+"192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19861
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4831
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5366
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5471
+127.0.0.1 → 127.0.0.1 DNS 139 Standard query response 0xe150 AAAA daisy.ubuntu.com SOA ns1.canonical.com
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5986
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5563
+192.168.1.152 → 192.168.1.190 DNS 109 Standard query 0xc68e AAAA a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19528
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5751
+
+###
+
+","
+
+pkt_list = [ 
+  IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=19861),
+  IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=4831), 
+  IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5366),
+  IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5471), 
+  IP(src=""127.0.0.1"", dst=""127.0.0.1"")/DNS(qd=DNSQR(qname=""daisy.ubuntu.com""), aa=1, ra=1, rcode=0xe150, an=DNSRR(rrname=""daisy.ubuntu.com"", type=""SOA"", rdata=""ns1.canonical.com"")), 
+  IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=5986),
+  IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5563),
+  IP(src=""192.168.1.152"", dst=""192.168.1.190"")/DNS(qd=DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com""), rcode=0xc68e),
+  IP(src=""192.168.1.194"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x9015, seq=19528),
+  IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5751) 
+]
+
+###"
+"192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6514
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5845
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6648
+127.0.0.1 → 127.0.0.1 DNS 139 Standard query response 0x2c4e AAAA daisy.ubuntu.com SOA ns1.canonical.com
+127.0.0.1 → 127.0.0.1 DNS 222 Standard query response 0xa8f5 A daisy.ubuntu.com A 162.213.33.132 A 162.213.33.108 NS ns3.canonical.com NS ns2.canonical.com NS ns1.canonical.com A 91.189.94.173 A 91.189.95.3 A 91.189.91.139
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4901
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4898
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18776
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4626
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4172
+
+###
+
+","
+
+pkt_list = [
+    scapy.Ether(dst=""192.168.1.192"", src=""192.168.1.190"") /
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"") /
+    scapy.ICMP(id=0x112d, seq=6514),
+    scapy.Ether(dst=""192.168.1.192"", src=""192.168.1.190"") /
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"") /
+    scapy.ICMP(id=0x112d, seq=5845),
+    scapy.Ether(dst=""192.168.1.192"", src=""192.168.1.190"") /
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"") /
+    scapy.ICMP(id=0x112d, seq=6648),
+    scapy.Ether(dst=""127.0.0.1"", src=""127.0.0.1"") /
+    scapy.IP(src=""127.0.0.1"", dst=""127.0.0.1"") /
+    scapy.DNS(id=0x2c4e, qd=scapy.DNSQR(qname=""daisy.ubuntu.com"", qtype=""AAAA""), aa=1, an=scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""SOA"", ttl=600, rdata=""ns1.canonical.com"")),
+    scapy.Ether(dst=""127.0.0.1"", src=""127.0.0.1"") /
+    scapy.IP(src=""127.0.0.1"", dst=""127.0.0.1"") /
+    scapy.DNS(id=0xa8f5, qd=scapy.DNSQR(qname=""daisy.ubuntu.com""), aa=1, an=scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""A"", ttl=3600, rdata=""162.213.33.132"") / 
+    scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""A"", ttl=3600, rdata=""162.213.33.108"") /
+    scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""NS"", ttl=3600, rdata=""ns3.canonical.com"") /
+    scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""NS"", ttl=3600, rdata=""ns2.canonical.com"") /
+    scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""NS"", ttl=3600, rdata=""ns1.canonical.com"") /
+    scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""A"", ttl=3600, rdata=""91.189.94.173"") /
+    scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""A"", ttl=3600, rdata=""91.189.95.3"") /
+    scapy.DNSRR(rrname=""daisy.ubuntu.com"", type=""A"", ttl=3600, rdata=""91.189.91.139"")),
+	scapy.Ether(dst=""192.168.1.193"", src=""192.168.1.190"") /
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"") /
+    scapy.ICMP(id=0x0001, seq=4901),
+	scapy.Ether(dst=""192.168.1.193"", src=""192.168.1.190"") /
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"") /
+    scapy.ICMP(id=0x0001, seq=4898),
+	scapy.Ether(dst=""192.168.1.194"", src=""192.168.1.190"") /
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"") /
+    scapy.ICMP(id=0x9015, seq=18776),
+	scapy.Ether(dst=""192.168.1.190"", src=""192.168.1.193"") /
+    scapy.IP(src=""192.168.1.190"") /
+    scapy.ICMP(id=0x0001, seq=4626),
+	scapy.Ether(dst=""192.168.1.190"", src=""192.168.1.193"") /
+    scapy.IP(src=""192.168.1.193"") /
+    scapy.ICMP(id=0x0001, seq=4172)
+]
+
+###"
+"192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5713
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19424
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=5420
+192.168.1.190 → 193.108.88.128 DNS 122 Standard query 0x3a5b AAAA asimov-win.settings.data.microsoft.com.akadns.net OPT
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19480
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19707
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6251
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4815
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19331
+192.168.1.152 → 192.168.1.190 DNS 109 Standard query 0xd307 AAAA a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com
+
+###
+
+","
+
+pkt_list = [
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.190"", src=""192.168.1.192"")/scapy.ICMP(type=""echo-request"", id=0x112d, seq=5713),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.190"", src=""192.168.1.194"")/scapy.ICMP(type=""echo-request"", id=0x9015, seq=19424),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.193"", src=""192.168.1.190"")/scapy.ICMP(type=""echo-reply"", id=0x0001, seq=5420),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.194"", src=""192.168.1.190"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=19480),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.194"", src=""192.168.1.190"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=19707),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.192"", src=""192.168.1.190"")/scapy.ICMP(type=""echo-reply"", id=0x112d, seq=6251),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.193"", src=""192.168.1.190"")/scapy.ICMP(type=""echo-reply"", id=0x0001, seq=4815),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.190"", src=""192.168.1.194"")/scapy.ICMP(type=""echo-request"", id=0x9015, seq=19331),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.190"", src=""192.168.1.152"")/scapy.UDP(dport=53)/scapy.DNS(qd=scapy.DNSQR(qname=""asimov-win.settings.data.microsoft.com.akadns.net"", qtype=""AAAA"")),
+    scapy.Ether(dst=""ff:ff:ff:ff:ff:ff"")/scapy.IP(dst=""192.168.1.190"", src=""192.168.1.152"")/scapy.UDP(dport=53)/scapy.DNS(qd=scapy.DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", qtype=""AAAA""))
+]
+
+###"
+"192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4505
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6315
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4371
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4712
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6416
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5742
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19935
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4266
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18970
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6542
+
+###
+
+","
+
+pkt_list = [IP(src=""192.168.1.190"", dst=""192.168.1.193"")/ICMP(id=0x0001, seq=4505, type=""echo-reply""),                                
+            IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(id=0x112d, seq=6315, type=""echo-request""),
+            IP(src=""192.168.1.190"", dst=""192.168.1.193"")/ICMP(id=0x0001, seq=4371, type=""echo-reply""),
+            IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(id=0x0001, seq=4712, type=""echo-request""),
+            IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(id=0x112d, seq=6416, type=""echo-reply""),
+            IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(id=0x112d, seq=5742, type=""echo-reply""),
+            IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(id=0x9015, seq=19935, type=""echo-reply""),
+            IP(src=""192.168.1.193"", dst=""192.168.1.193"")/ICMP(id=0x0001, seq=4266, type=""echo-request""),
+            IP(src=""192.168.1.194"", dst=""192.168.1.194"")/ICMP(id=0x9015, seq=18970, type=""echo-request""),
+            IP(src=""192.168.1.192"", dst=""192.168.1.192"")/ICMP(id=0x112d, seq=6542, type=""echo-request"")]
+
+
+###"
+"192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5300
+193.108.88.128 → 192.168.1.190 DNS 135 Standard query response 0xfeaa A hk2-eap.settings.data.microsoft.com.akadns.net A 52.175.39.99 OPT
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4710
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6296
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6115
+205.251.198.61 → 192.168.1.190 DNS 239 Standard query response 0x1644 AAAA d12uj65dsn9ho1.cloudfront.net NS ns-129.awsdns-16.com NS ns-1433.awsdns-51.org NS ns-1675.awsdns-17.co.uk NS ns-700.awsdns-23.net OPT
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4416
+192.168.1.190 → 192.229.254.6 DNS 91 Standard query 0x7edb AAAA cs9.wac.phicdn.net OPT
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5458
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6531
+
+###
+
+","
+
+pkt_list = [ 
+  Ether()/IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=5300), 
+  Ether()/IP(src=""193.108.88.128"", dst=""192.168.1.190"")/UDP(sport=53)/DNS(qr=1, opcode=0,rcode=0,id=0xfeaa,qd=DNSQR(qname=""hk2-eap.settings.data.microsoft.com.akadns.net"", qtype=""A"")),
+  Ether()/IP(src=""192.168.1.190"", dst=""192.168.1.193"")/ICMP(type=""echo-reply"", id=0x0001, seq=4710),
+  Ether()/IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"",id=0x112d, seq=6296),
+  Ether()/IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=6115),
+  Ether()/IP(src=""205.251.198.61"", dst=""192.168.1.190"")/UDP(sport=53)/DNS(qr=1, opcode=0, rcode=0, id=0x1644, qd=DNSQR(qname=""d12uj65dsn9ho1.cloudfront.net"", qtype=""AAAA""), ar=DNSRR(type=""NS"", ttl=3600, rclass=1, rdlen=22, rdata=""ns-129.awsdns-16.com"")/DNSRR(type=""NS"", ttl=3600, rclass=1, rdlen=21, rdata=""ns-1433.awsdns-51.org"")/DNSRR(type=""NS"", ttl=3600, rclass=1, rdlen=20, rdata=""ns-1675.awsdns-17.co.uk"")/DNSRR(type=""NS"", ttl=3600, rclass=1, rdlen=19, rdata=""ns-700.awsdns-23.net"")),
+  Ether()/IP(src=""192.168.1.190"", dst=""192.168.1.193"")/ICMP(type=""echo-reply"", id=0x0001, seq=4416),
+  Ether()/IP(src=""192.168.1.190"", dst=""192.229.254.6"")/UDP(sport=53)/DNS(qd=DNSQR(qname=""cs9.wac.phicdn.net"", qtype=""AAAA""), id=0x7edb),
+  Ether()/IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"",id=0x0001, seq=5458),
+  Ether()/IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"",id=0x112d, seq=6531)
+]
+
+###"
+"192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5520
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4977
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19261
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4739
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6171
+192.168.1.190 → 198.41.0.4 DNS 85 Standard query 0x3d65 DS s-msedge.net OPT
+193.108.91.240 → 192.168.1.190 DNS 317 Standard query response 0x666f AAAA content-signature.cdn.mozilla.net CNAME d12uj65dsn9ho1.cloudfront.net RRSIG OPT
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6008
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5533
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19187
+
+###
+
+","
+
+import scapy.all as scapy
+
+pkt_list = []
+
+# Create the packets:
+pkt1 = scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"",id=0x112d,seq=5520)
+pkt_list.append(pkt1)
+
+pkt2 = scapy.IP(src=""192.168.1.190"",dst=""192.168.1.193"")/scapy.ICMP(type=""echo-reply"",id=0x0001,seq=4977)
+pkt_list.append(pkt2)
+
+pkt3 = scapy.IP(src=""192.168.1.194"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"",id=0x9015,seq=19261)
+pkt_list.append(pkt3)
+
+pkt4 = scapy.IP(src=""192.168.1.193"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"",id=0x0001,seq=4739)
+pkt_list.append(pkt4)
+
+pkt5 = scapy.IP(src=""192.168.1.190"",dst=""192.168.1.192"")/scapy.ICMP(type=""echo-reply"",id=0x112d,seq=6171)
+pkt_list.append(pkt5)
+
+pkt6 = scapy.IP(src=""193.108.91.240"",dst=""192.168.1.190"")/scapy.DNS(rd=1, qd=scapy.DNSQR(qname=""s-msedge.net"", qtype=""DS""))/scapy.DNS(ar=scapy.DNSRROPT(rdata=""content-signature.cdn.mozilla.net CNAME d12uj65dsn9ho1.cloudfront.net""))
+pkt_list.append(pkt6)
+
+pkt7 = scapy.IP(src=""192.168.1.190"",dst=""192.168.1.192"")/scapy.ICMP(type=""echo-reply"",id=0x112d,seq=6008)
+pkt_list.append(pkt7)
+
+pkt8 = scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"",id=0x112d,seq=5533)
+pkt_list.append(pkt8)
+
+pkt9 = scapy.IP(src=""192.168.1.194"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"",id=0x9015,seq=19187)
+pkt_list.append(pkt9)
+
+###"
+"192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19142
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19569
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19681
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19829
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6052
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19847
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5571
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5768
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6430
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4550
+
+###
+
+","
+
+
+import scapy.all as scapy
+
+pkt_list = []
+
+# For 192.168.1.190 → 192.168.1.194
+pkt_list.append(scapy.IP(src=""192.168.1.190"",dst=""192.168.1.194"")/scapy.ICMP(type=100,id=0x9015,seq=19142))
+
+# For 192.168.1.194 → 192.168.1.190
+pkt_list.append(scapy.IP(src=""192.168.1.194"",dst=""192.168.1.190"")/scapy.ICMP(code=100,id=0x9015,seq=19569))
+
+# For 192.168.1.190 → 192.168.1.194
+pkt_list.append(scapy.IP(src=""192.168.1.190"",dst=""192.168.1.194"")/scapy.ICMP(type=100,id=0x9015,seq=19681))
+
+# For 192.168.1.194 → 192.168.1.190
+pkt_list.append(scapy.IP(src=""192.168.1.190"",dst=""192.168.1.190"")/scapy.ICMP(code=100,id=0x9015,seq=19829))
+
+# For 192.168.1.192 → 192.168.1.190
+pkt_list.append(scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/scapy.ICMP(code=100,id=0x112d,seq=6052))
+
+# For 192.168.1.190 → 192.168.1.194
+pkt_list.append(scapy.IP(src=""192.168.1.190"",dst=""192.168.1.194"")/scapy.ICMP(type=100,id=0x9015,seq=19847))
+
+# For 192.168.1.190 → 192.168.1.192
+pkt_list.append(scapy.IP(src=""192.168.1.190"",dst=""192.168.1.192"")/scapy.ICMP(type=100,id=0x112d,seq=5571))
+
+# For 192.168.1.190 → 192.168.1.192
+pkt_list.append(scapy.IP(src=""192.168.1.190"",dst=""192.168.1.192"")/scapy.ICMP(type=100,id=0x112d,seq=5768))
+
+# For 192.168.1.192 → 192.168.1.190
+pkt_list.append(scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/scapy.ICMP(code=100,id=0x112d,seq=6430))
+
+# For 192.168.1.193 → 192.168.1.190
+pkt_list.append(scapy.IP(src=""192.168.1.193"",dst=""192.168.1.190"")/scapy.ICMP(code=76,id=0x0001,seq=4550))
+
+
+
+###"
+"192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18811
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6220
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4830
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4393
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5348
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18741
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19844
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18628
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=5078
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18865
+
+###
+
+","
+
+pkt_list = [ 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.190"", dst=""192.168.0.194"")/ 
+  scapy.ICMP(type=8,id=0x9015,seq=18811)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/ 
+  scapy.ICMP(type=0,id=0x112d,seq=6220)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.190"",dst=""192.168.1.193"")/ 
+  scapy.ICMP(type=0,id=0x0001,seq=4830)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.193"",dst=""192.168.1.190"")/ 
+  scapy.ICMP(type=8,id=0x0001,seq=4393)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.190"",dst=""192.168.1.192"")/ 
+  scapy.ICMP(type=0,id=0x112d,seq=5348)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.190"",dst=""192.168.1.194"")/ 
+  scapy.ICMP(type=8,id=0x9015,seq=18741)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.190"",dst=""192.168.1.194"")/ 
+  scapy.ICMP(type=8,id=0x9015,seq=19844)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.194"",dst=""192.168.1.190"")/ 
+  scapy.ICMP(type=0,id=0x9015,seq=18628)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.190"",dst=""192.168.1.193"")/ 
+  scapy.ICMP(type=0,id=0x0001,seq=5078)/ 
+  scapy.Raw(load=""Hello World""), 
+  scapy.Ether()/ 
+  scapy.IP(src=""192.168.1.194"",dst=""192.168.1.190"")/ 
+  scapy.ICMP(type=0,id=0x9015,seq=18865)/ 
+  scapy.Raw(load=""Hello World"") ]
+
+###"
+"192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4640
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6615
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=5510
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6007
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5795
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5626
+127.0.0.1 → 127.0.0.1 DNS 78 Standard query 0x1f9c AAAA daisy.ubuntu.com
+192.168.1.192 → 192.168.1.190 DNS 78 Standard query 0xf6de AAAA daisy.ubuntu.com
+192.5.6.30 → 192.168.1.190 DNS 805 Standard query response 0x515e DS mozilla.com NSEC3 RRSIG SOA a.gtld-servers.net RRSIG NSEC3 RRSIG OPT
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18993
+
+###
+
+","
+
+pkt_list = []
+
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.168.1.193"")/ICMP(type=""echo-request"",id=0x0001,seq=4640))
+pkt_list.append(Ether()/IP(dst=""192.168.1.193"",src=""192.168.1.190"")/ICMP(type=""echo-reply"",id=0x112d,seq=6615))
+pkt_list.append(Ether()/IP(dst=""192.168.1.192"",src=""192.168.1.190"")/ICMP(type=""echo-request"",id=0x112d,seq=6007))
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.168.1.192"")/ICMP(type=""echo-reply"",id=0x112d,seq=5795))
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.168.1.192"")/ICMP(type=""echo-reply"",id=0x112d,seq=5626))
+pkt_list.append(Ether()/IP(dst=""127.0.0.1"",src=""127.0.0.1"")/DNS(rd=1,qd=DNSQR(qname=""daisy.ubuntu.com"",qtype=""AAAA"")))
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.5.6.30"")/DNS(id=0x515e,qr=1,opcode=0,aa=1,tc=0,rd=1,ra=1,qdcount=1,ancount=1,nscount=1,arcount=1,qd=DNSQR(qname=""mozilla.com"",qtype=""NSEC3""),an=DNSRR(rrname=""mozilla.com"",type=""NSEC3"",ttl=3600,rdata=""RRSIG SOA a.gtld-servers.net RRSIG NSEC3 RRSIG OPT""),ns=DNSRR(rrname=""mozilla.com"",type=""NSEC3"",ttl=3600,rdata=""RRSIG SOA a.gtld-servers.net RRSIG NSEC3 RRSIG OPT"")))
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.168.1.194"")/ICMP(type=""echo-request"",id=0x9015,seq=18993))
+
+###"
+"192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4137
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6467
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19845
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19519
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6558
+192.168.1.190 → 208.84.0.53 DNS 89 Standard query 0x463b AAAA dns.msftncsi.com OPT
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19827
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5195
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5887
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4773
+
+###
+
+","
+
+
+pkt_list = [
+    scapy.IP(src=""192.168.1.190"",dst=""192.168.1.193"")/scapy.ICMP(type=""echo-reply"", id=0x0001, seq=4137),
+    scapy.IP(src=""192.168.1.190"",dst=""192.168.1.192"")/scapy.ICMP(type=""echo-reply"", id=0x112d, seq=6467),
+    scapy.IP(src=""192.168.1.190"",dst=""192.168.1.194"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=19845),
+    scapy.IP(src=""192.168.1.194"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x9015, seq=19519),
+    scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x112d, seq=6558),
+    scapy.IP(src=""192.168.1.190"",dst=""208.84.0.53"")/scapy.DNS(id=0x463b, qd=scapy.DNSQR(qname=""dns.msftncsi.com"", qtype=""AAAA"")),
+    scapy.IP(src=""192.168.1.190"",dst=""192.168.1.194"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=19827),
+    scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x112d, seq=5195),
+    scapy.IP(src=""192.168.1.192"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x112d, seq=5887),
+    scapy.IP(src=""192.168.1.193"",dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x0001, seq=4773)
+]
+
+
+
+###"
+"192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6532
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5594
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5454
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18996
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4914
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5238
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5040
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19873
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19677
+192.168.1.152 → 192.168.1.190 DNS 109 Standard query 0xd307 AAAA a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com
+
+###
+
+","
+
+pkt_list = []
+
+pkt1 = IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=6532)
+pkt_list.append(pkt1)
+
+pkt2 = IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=5594)
+pkt_list.append(pkt2)
+
+pkt3 = IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=5454)
+pkt_list.append(pkt3)
+
+pkt4 = IP(src=""192.168.1.194"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x9015, seq=18996)
+pkt_list.append(pkt4)
+
+pkt5 = IP(src=""192.168.1.190"", dst=""192.168.1.193"")/ICMP(type=""echo-reply"", id=0x0001, seq=4914)
+pkt_list.append(pkt5)
+
+pkt6 = IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5238)
+pkt_list.append(pkt6)
+
+pkt7 = IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=5040)
+pkt_list.append(pkt7)
+
+pkt8 = IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=19873)
+pkt_list.append(pkt8)
+
+pkt9 = IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=19677)
+pkt_list.append(pkt9)
+
+pkt10 = IP(src=""192.168.1.152"", dst=""192.168.1.190"")/DNS(id=0xd307, qd=DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", qtype=""AAAA""))
+pkt_list.append(pkt10)
+
+###"
+"192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18455
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18820
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18566
+192.5.6.30 → 192.168.1.190 DNS 804 Standard query response 0x176b DS google.com NSEC3 RRSIG SOA a.gtld-servers.net RRSIG NSEC3 RRSIG OPT
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5521
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6590
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5868
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6037
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6207
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6477
+
+###
+
+","
+
+
+pkt_list = [
+    scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=8, id=0x9015, seq=18455),
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=0, id=0x9015, seq=18820),
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=0, id=0x9015, seq=18566),
+    scapy.IP(src=""192.168.1.193"", dst=""192.168.1.190"")/scapy.ICMP(type=8, id=0x0001, seq=5521),
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=0, id=0x112d, seq=6590),
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=0, id=0x112d, seq=5868),
+    scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=8, id=0x112d, seq=6037),
+    scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=0, id=0x112d, seq=6207),
+    scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=8, id=0x112d, seq=6477)
+]
+
+
+
+
+###"
+"192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4949
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4697
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19015
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5522
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18657
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19735
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6253
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19856
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18789
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5298
+
+###
+
+","
+
+pkt_list = [
+    IP(src=""192.168.1.190"", dst=""192.168.1.193"")/ICMP(type=""echo-reply"", id=0x0001, seq=4949),
+    IP(src=""192.168.1.190"", dst=""192.168.1.193"")/ICMP(type=""echo-reply"", id=0x0001, seq=4697),
+    IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=19015),
+    IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=5522),
+    IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=18657),
+    IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=19735),
+    IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=6253),
+    IP(src=""192.168.1.194"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x9015, seq=19856),
+    IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=18789),
+    IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=5298)
+]
+
+###"
+"192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5930
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5386
+192.168.1.152 → 192.168.1.190 DNS 109 Standard query 0xbf2e AAAA a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19296
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5542
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5936
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18463
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4235
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19923
+192.168.1.190 → 192.168.1.152 DNS 193 Standard query response 0x4469 No such name A a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com SOA ns-1926.awsdns-48.co.uk
+
+###
+
+","
+
+pkt_list = []
+
+pkt1 = IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5930)
+pkt_list.append(pkt1)
+
+pkt2 = IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=5386)
+pkt_list.append(pkt2)
+
+pkt3 = IP(src=""192.168.1.152"", dst=""192.168.1.190"")/DNS(id=0xbf2e, qd=DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", qtype=""AAAA""))
+pkt_list.append(pkt3)
+
+pkt4 = IP(src=""192.168.1.194"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x9015, seq=19296)
+pkt_list.append(pkt4)
+
+pkt5 = IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=5542)
+pkt_list.append(pkt5)
+
+pkt6 = IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5936)
+pkt_list.append(pkt6)
+
+pkt7 = IP(src=""192.168.1.194"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x9015, seq=18463)
+pkt_list.append(pkt7)
+
+pkt8 = IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=4235)
+pkt_list.append(pkt8)
+
+pkt9 = IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=19923)
+pkt_list.append(pkt9)
+
+pkt10 = IP(src=""192.168.1.190"", dst=""192.168.1.152"")/DNS(id=0x4469, qr=1, aa=1, rd=1, qd=DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", qtype=""SOA""), an=DNSRR(rrname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", type=""SOA"", rdata=""ns-1926.awsdns-48.co.uk""))
+pkt_list.append(pkt10)
+
+###"
+"192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4970
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18770
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5284
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4170
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19005
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18533
+2001:500:1::803f:235 → 2405:6e00:10ce:2c00:20c:29ff:feee:e07a DNS 1161 Standard query response 0x2d18 NS <Root> NS a.root-servers.net NS b.root-servers.net NS c.root-servers.net NS d.root-servers.net NS e.root-servers.net NS f.root-servers.net NS g.root-servers.net NS h.root-servers.net NS i.root-servers.net NS j.root-servers.net NS k.root-servers.net NS l.root-servers.net NS m.root-servers.net RRSIG AAAA 2001:503:ba3e::2:30 AAAA 2001:500:200::b AAAA 2001:500:2::c AAAA 2001:500:2d::d AAAA 2001:500:a8::e AAAA 2001:500:2f::f AAAA 2001:500:12::d0d AAAA 2001:500:1::53 AAAA 2001:7fe::53 AAAA 2001:503:c27::2:30 AAAA 2001:7fd::1 AAAA 2001:500:9f::42 AAAA 2001:dc3::35 A 198.41.0.4 A 199.9.14.201 A 192.33.4.12 A 199.7.91.13 A 192.203.230.10 A 192.5.5.241 A 192.112.36.4 A 198.97.190.53 A 192.36.148.17 A 192.58.128.30 A 193.0.14.129 A 199.7.83.42 A 202.12.27.33 OPT
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19849
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19520
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19549
+
+###
+
+","
+
+
+pkt_list = []
+pkt_list.append(Ether()/IP(dst=""192.168.1.193"",src=""192.168.1.190"")/ICMP(id=0x0001,seq=4970)/""Echo (ping) reply"")
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.168.1.194"")/ICMP(id=0x9015,seq=18770)/""Echo (ping) request"")
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.168.1.193"")/ICMP(id=0x0001,seq=5284)/""Echo (ping) request"")
+pkt_list.append(Ether()/IP(dst=""192.168.1.190"",src=""192.168.1.193"")/ICMP(id=0x0001,seq=4170)/""Echo (ping) request"")
+pkt_list.append(Ether()/IP(dst=""192.168.1.194"",src=""192.168.1.190"")/ICMP(id=0x9015,seq=19005)/""Echo (ping) reply"")
+pkt_list.append(Ether()/IP(dst=""192.168.1.194"",src=""192.168.1.190"")/ICMP(id=0x9015,seq=18533)/""Echo (ping) reply"")
+
+
+
+
+###"
+"192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19388
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4096
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5509
+192.168.1.190 → 192.168.1.152 DNS 193 Standard query response 0x1878 No such name AAAA a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com SOA ns-1926.awsdns-48.co.uk
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19456
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19136
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6410
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5700
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5831
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6475
+
+###
+
+","
+
+import scapy.all as scapy
+
+pkt_list = []
+
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=19388))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=""echo-reply"", id=0x0001, seq=4096))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=""echo-reply"", id=0x112d, seq=5509))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.152"")/scapy.DNS(id=0x1878, qr=1, opcode=0, aa=0, tc=0, rd=1, ra=1, z=0, rcode=0, qdcount=1, ancount=0, nscount=0, arcount=0, qd=scapy.DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", qtype=""SOA"", qclass=""IN""), an=None, ns=None, ar=None))
+pkt_list.append(scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x9015, seq=19456))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=19136))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=""echo-reply"", id=0x112d, seq=6410))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=""echo-reply"", id=0x112d, seq=5700))
+pkt_list.append(scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x112d, seq=5831))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=""echo-reply"", id=0x112d, seq=6475))
+
+###"
+"192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=5396
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18669
+127.0.0.1 → 127.0.0.1 DNS 139 Standard query response 0x63d3 AAAA daisy.ubuntu.com SOA ns1.canonical.com
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4368
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19807
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4797
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18829
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19744
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=5266
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18848
+
+###
+
+","
+
+
+pkt_list = [
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=""echo-reply"", id=0x0001, seq=5396),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=18669),
+    scapy.Ether(src=""192.168.1.193"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.193"", dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x0001, seq=4368),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=19807),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=""echo-reply"", id=0x0001, seq=4797),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=""echo-reply"", id=0x9015, seq=18829),
+    scapy.Ether(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x9015, seq=19744),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=""echo-reply"", id=0x0001, seq=5266),
+    scapy.Ether(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=""echo-request"", id=0x9015, seq=18848)
+]
+
+
+###"
+"192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6275
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6214
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=5217
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5412
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19287
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=6410
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6365
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4285
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4357
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19097
+
+###
+
+","
+
+pkt_list = [
+    scapy.Ether(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x112d, seq=6275),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=100, id=0x112d, seq=6214),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=76, id=0x0001, seq=5217),
+    scapy.Ether(src=""192.168.1.193"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.193"", dst=""192.168.1.190"")/scapy.ICMP(type=76, id=0x0001, seq=5412),
+    scapy.Ether(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x9015, seq=19287),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.192"")/scapy.ICMP(type=100, id=0x112d, seq=6410),
+    scapy.Ether(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x112d, seq=6365),
+    scapy.Ether(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=76, id=0x0001, seq=4285),
+    scapy.Ether(src=""192.168.1.193"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.193"", dst=""192.168.1.190"")/scapy.ICMP(type=76, id=0x0001, seq=4357),
+    scapy.Ether(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x9015, seq=19097)
+]
+
+###"
+"192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18760
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19178
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5525
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5177
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=5476
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=6301
+192.168.1.190 → 192.168.1.193 ICMP 76 Echo (ping) reply id=0x0001, seq=4604
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5667
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=18852
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19338
+
+###
+
+","
+
+import scapy.all as scapy
+
+pkt_list = []
+
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.194"")/scapy.ICMP(type=100, id=0x9015, seq=18760))
+pkt_list.append(scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x9015, seq=19178))
+pkt_list.append(scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x112d, seq=5525))
+pkt_list.append(scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x112d, seq=5177))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=76, id=0x0001, seq=5476))
+pkt_list.append(scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x112d, seq=6301))
+pkt_list.append(scapy.IP(src=""192.168.1.190"", dst=""192.168.1.193"")/scapy.ICMP(type=76, id=0x0001, seq=4604))
+pkt_list.append(scapy.IP(src=""192.168.1.192"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x112d, seq=5667))
+pkt_list.append(scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x9015, seq=18852))
+pkt_list.append(scapy.IP(src=""192.168.1.194"", dst=""192.168.1.190"")/scapy.ICMP(type=100, id=0x9015, seq=19338))
+
+###"
+"192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=19497
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19490
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=4723
+192.168.1.190 → 192.168.1.152 DNS 193 Standard query response 0x0971 No such name AAAA a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com SOA ns-1926.awsdns-48.co.uk
+192.168.1.193 → 192.168.1.190 ICMP 76 Echo (ping) request id=0x0001, seq=5007
+192.168.1.190 → 192.168.1.152 DNS 193 Standard query response 0x063b No such name AAAA a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com SOA ns-1926.awsdns-48.co.uk
+192.168.1.192 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x112d, seq=5550
+192.168.1.194 → 192.168.1.190 ICMP 100 Echo (ping) request id=0x9015, seq=19685
+192.168.1.190 → 192.168.1.194 ICMP 100 Echo (ping) reply id=0x9015, seq=18947
+192.168.1.190 → 192.168.1.192 ICMP 100 Echo (ping) reply id=0x112d, seq=5643
+
+###
+
+","
+
+pkt_list = []
+
+pkt1 = IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=19497)
+pkt_list.append(pkt1)
+
+pkt2 = IP(src=""192.168.1.194"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x9015, seq=19490)
+pkt_list.append(pkt2)
+
+pkt3 = IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=4723)
+pkt_list.append(pkt3)
+
+pkt4 = IP(src=""192.168.1.190"", dst=""192.168.1.152"")/DNS(id=0x0971, qr=1, opcode=0, rcode=3, qdcount=1, ancount=0, nscount=0, arcount=0, qd=DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", qtype=""SOA"", qclass=""IN""))
+pkt_list.append(pkt4)
+
+pkt5 = IP(src=""192.168.1.193"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x0001, seq=5007)
+pkt_list.append(pkt5)
+
+pkt6 = IP(src=""192.168.1.190"", dst=""192.168.1.152"")/DNS(id=0x063b, qr=1, opcode=0, rcode=3, qdcount=1, ancount=0, nscount=0, arcount=0, qd=DNSQR(qname=""a2z3kk2ebqzso7.iot.ap-southeast-2.amazonaws.com"", qtype=""SOA"", qclass=""IN""))
+pkt_list.append(pkt6)
+
+pkt7 = IP(src=""192.168.1.192"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x112d, seq=5550)
+pkt_list.append(pkt7)
+
+pkt8 = IP(src=""192.168.1.194"", dst=""192.168.1.190"")/ICMP(type=""echo-request"", id=0x9015, seq=19685)
+pkt_list.append(pkt8)
+
+pkt9 = IP(src=""192.168.1.190"", dst=""192.168.1.194"")/ICMP(type=""echo-reply"", id=0x9015, seq=18947)
+pkt_list.append(pkt9)
+
+pkt10 = IP(src=""192.168.1.190"", dst=""192.168.1.192"")/ICMP(type=""echo-reply"", id=0x112d, seq=5643)
+pkt_list.append(pkt10)
+
+###"
